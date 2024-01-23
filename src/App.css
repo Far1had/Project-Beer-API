@@ -51,7 +51,7 @@ h2{
 .read-the-docs {
   color: #888;
 }
-.footer {
+#footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -59,4 +59,4 @@ h2{
   background-color: #f8f8f8;
   padding: 10px;
   text-align: center;
-}
+  z-index: 1000; 

@@ -22,14 +22,16 @@ const AllBeers = () => {
 
   return (
     <>
+      <h4>Bier 🍺 Bier 🍺 - Schnell eine hier🍻</h4>
       {/* <Nav /> */}
-      <footer>
+      <footer id='footer'>
         <Link to="/">
-        <p>- 🍻 - </p>
-      </Link>
-        </footer>
- 
-  
+          <h2> 🍻  </h2>
+
+        </Link>
+      </footer>
+
+
       <BeerList beers={beers} />
     </>
   );

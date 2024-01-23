@@ -22,10 +22,11 @@ const RandomBeers = () => {
 
   return (
     <>
+    <h4>Bier 🍺 Bier 🍺 - Schnell eine hier🍻</h4>
       {/* <Nav /> */}
-      <footer>
+      <footer id='footer'>
         <Link to="/">
-        <p>- 🍻 - </p>
+        <h2> 🍻  </h2>
       </Link>
         </footer>
  

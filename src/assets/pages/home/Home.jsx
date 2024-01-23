@@ -7,7 +7,7 @@ import random from "../../../assets/img/random.png"
 const Home = () => {
   return (
     <>
-      {/* <Nav /> */}
+     
       <div>
         <Link to="/AllBeers">
           <img src={allbeer} />
