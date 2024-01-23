@@ -23,9 +23,11 @@ const RandomBeers = () => {
   return (
     <>
       {/* <Nav /> */}
-      <Link to="/">
-        <p>Zurück zur 🍻 Startseite</p>
+      <footer>
+        <Link to="/">
+        <p>- 🍻 - </p>
       </Link>
+        </footer>
  
       {randomBeer && <Card beer={randomBeer} />}
     </>

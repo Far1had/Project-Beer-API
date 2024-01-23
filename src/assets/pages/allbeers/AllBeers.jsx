@@ -23,10 +23,13 @@ const AllBeers = () => {
   return (
     <>
       {/* <Nav /> */}
-      <Link to="/">
-        <p>Zurück zur 🍻 Startseite</p>
+      <footer>
+        <Link to="/">
+        <p>- 🍻 - </p>
       </Link>
-      <h1>All Beers</h1>
+        </footer>
+ 
+  
       <BeerList beers={beers} />
     </>
   );

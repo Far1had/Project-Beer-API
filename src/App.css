@@ -1,3 +1,14 @@
+body{
+  background-color: white;
+}
+div{
+  color: black;
+}
+h2{
+  color: white;
+  background-color: rgb(255, 149, 0);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +50,13 @@
 
 .read-the-docs {
   color: #888;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
 }
