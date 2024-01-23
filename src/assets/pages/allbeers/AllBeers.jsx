@@ -22,9 +22,9 @@ const AllBeers = () => {
 
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Link to="/">
-        <p>Zurück zur Startseite</p>
+        <p>Zurück zur 🍻 Startseite</p>
       </Link>
       <h1>All Beers</h1>
       <BeerList beers={beers} />

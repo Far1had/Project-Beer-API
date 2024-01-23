@@ -22,11 +22,11 @@ const RandomBeers = () => {
 
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Link to="/">
-        <p>Zurück zur Startseite</p>
+        <p>Zurück zur 🍻 Startseite</p>
       </Link>
-      <h1>Random Beer</h1>
+ 
       {randomBeer && <Card beer={randomBeer} />}
     </>
   );

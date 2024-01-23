@@ -5,8 +5,7 @@ import Nav from '../../components/Nav';
 const Home = () => {
   return (
     <>
-      <Nav />
-      <div>Hier ist Home</div>
+      {/* <Nav /> */}
       <div>
         <Link to="/AllBeers">
           <h2>All Beers</h2>
